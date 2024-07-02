@@ -1,0 +1,391 @@
+<!doctype html>
+<html>
+  <head>
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Lato:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./assets/js/popper.min.js"></script>
+  <script defer src="./assets/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"></script>
+
+  <script> document.addEventListener("DOMContentLoaded", () => { document.querySelectorAll("img[src]").forEach(image => { const altText = generateAltText(image.getAttribute("src")); image.alt = altText; }); }); function generateAltText(src) { return src.split('/').pop().split('.')[0].replace(/[-\/_*]/g, ' '); } </script>
+
+  <title></title>
+<meta property="og:title" content="" />
+<meta property="og:locale" content="fr_FR" />
+<meta name="description" content="" />
+<meta property="og:description" content="" />
+<meta name="keywords" content="" />
+<link rel="canonical" href="http://localhost:4000/monuments" />
+<meta property="og:url" content="http://localhost:4000/monuments" />
+<meta property="og:site_name" content="" />
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"WebSite",
+"url":"http://localhost:4000/monuments",
+"description":"",
+"name":""
+}
+</script>
+
+</head>
+  <body>
+    <section class="header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="header_content">
+          <a href="tel:0143080442" class="header_content-link bg-sec-link">
+            Urgence dècès, 24h/24 7j/7 :<br>
+            01 43 08 04 42
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="header_content">
+          <a href="./devis.html" class="header_content-link">Devis gratuit</a>
+        </div>
+      </div>
+      <div class="col-md-8 to-hide-1400"></div>
+    </div>
+  </div>
+</section>
+<section class="Navbar_home">
+  <div class="container-fluid">
+    <nav class="navbar Navbar_main navbar-expand-lg fixedNav">
+      <div class="w-100">
+        <div class="row align-items-center flex-nowrap">
+          <div class="col-sm-2">
+            <div class="navbar_image">
+              <a href="./index.html" title="Accueil"><img loading="lazy" src="./assets/img/logo.png"
+                  class="navbar_image-img" alt="pompes-funebres-93.fr logo" /></a>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <p class="nav-link navbar_nav-li--p m-l-10">
+              <i class="fas fa-map-marker-alt" aria-hidden="true"></i> &nbsp; Marbrerie de Neuilly</p>
+          </div>
+          <div class="col-sm-8">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar"
+            aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars toggle-button navbar_toggler-icon" aria-hidden="true"></i>
+          </button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 to-hide-1400"></div>
+          <div class="col-md-10">
+            <div class="collapse navbar-collapse navbar_nav navbar_collapse" id="navbar">
+              <ul class="navbar-nav navbar_nav-ul mx-auto w-100">
+                <li class="nav-item navbar_nav-li">
+                  <a class="nav-link navbar_nav-li--link d-flex align-items-center"
+                    href="./index.html">Accueil</a>
+                </li>
+                <li class="nav-item navbar_nav-li">
+                  <a class="nav-link navbar_nav-li--link d-flex align-items-center"
+                    href="./obseques.html">Obsèques</a>
+                </li>
+                <li class="nav-item navbar_nav-li">
+                  <a class="nav-link navbar_nav-li--link d-flex align-items-center" href="./prevoyance.html">Prévoyance</a>
+                </li>
+                <li class="nav-item navbar_nav-li">
+                  <a class="nav-link navbar_nav-li--link d-flex align-items-center" href="./monuments.html">Monuments</a>
+                </li>
+                <li class="nav-item navbar_nav-li">
+                  <a class="nav-link navbar_nav-li--link d-flex align-items-center"
+                    href="./contact.html">Contact</a>
+                </li>
+                <li class="nav-item navbar_nav-li">
+                 <a href="./configurateur-de-monuments.html" class="nav-link navbar_nav-li--btn d-flex align-items-center">Configurateur de monument</a>
+                </li>
+                <li class="nav-item navbar_nav-li">
+                  <a href="https://avis-de-deces.pompes-funebres-93.fr/" target="_blank" class="nav-link navbar_nav-li--btn d-flex align-items-center">Avis de décès</a>
+                </li>
+                <li class="nav-item navbar_nav-li">
+                  <a href="https://espace-famille.pompes-funebres-93.fr/signin" target="_blank" class="nav-link navbar_nav-li--btn d-flex align-items-center">Espace Famille</a>
+                </li>
+                <li class="nav-item navbar_nav-li">
+                  <a href="https://boutique.pompes-funebres-93.fr/" target="_blank" class="nav-link navbar_nav-li--btn d-flex align-items-center">Fleurs de deuil</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</section>
+
+    
+
+    <div class="">
+        <section class="banner section-y">
+  <div class="container">
+    <div class="banner_content">
+      <h1 class="banner_content-title">Monuments</h1>
+    </div>
+  </div>
+</section>
+
+<section class="menu section-y">
+  <div class="container">
+    <div class="menu_content">
+      <h2 class="menu_content-p text-center">Les produits</h2>
+      <h2 class="menu_content-title to-four-rem">Notre catalogue </h2>
+    </div>
+    <div class="menu_image">
+      <img src="./assets/img/picmonument.jpg" alt="" class="menu_image-img2">
+    </div>
+    <p class="menu_box-p mt-5 text-center">Vous trouverez ci-dessous quelques-unes de nos références. Nous disposons de
+      plus de 200 modèles. L’agence funéraire LEBARON privilégie la fabrication 100% française. Nous travaillons en
+      direct et sans intermédiaire, afin de vous proposer les tarifs les plus avantageux.</p>
+    <div class="menu_content-link mt-5 d-flex justify-content-center mx-auto">
+      <a href="https://configurateur.famille.gpggranit.com/famille/CA101101?utm_source=c-f&utm_medium=lebaron#/start/"
+        target="_blank" class="menu_content-link--a">Configurateur de monument</a>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="one realisation section-y" id="realisations">
+  <div class="container">
+    <ul id="filters" class="clearfix">
+      <li class="categorie "><span class="filter active" data-filter=" .pod , .vit, .merch, .gran">Tout </span></li>
+      <li class="categorie"><span class="filter" data-filter=".pod">Nos monuments </span></li>
+      <li class="categorie"><span class="filter" data-filter=".vit">Vases et jardinières </span></li>
+      <li class="categorie"><span class="filter" data-filter=".merch">Fleurs </span></li>
+      <li class="categorie"><span class="filter" data-filter=".gran">Nos granits </span></li>
+    </ul>
+    <div id="portfoliolist" class="row">
+
+      <div class="portfolio col-lg-4 col-md-6 pod" data-cat="pod" data-bound=""
+        style="display: inline-block;">
+        <div class="box-img1">
+          <a href="https://configurateur.famille.gpggranit.com/famille/CA101101" class="" data-lightbox="roadtrip">
+            <div class="box-img1" style="height: 80%;"> <img loading="lazy" class="menu_image-img4" src="./assets/img/gallery/m10.jpg" alt=""
+                style="padding-top:5%"></div>
+            <p class="menu_box-p text-center link">Monument Inhumation</p>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio col-lg-4 col-md-6 pod" data-cat="pod" data-bound=""
+        style="display: inline-block;">
+        <div class="box-img1">
+          <a href="https://configurateur.famille.gpggranit.com/famille/CA101101" class="" data-lightbox="roadtrip">
+            <div class="box-img1" style="height: 80%;"> <img loading="lazy" class="menu_image-img4" src="./assets/img/gallery/m11.jpg" alt=""></div>
+            <p class="menu_box-p text-center link">Monument Crémation</p>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio col-lg-4 col-md-6 pod" data-cat="pod" data-bound=""
+        style="display: inline-block;">
+        <div class="box-img1">
+          <a href="https://configurateur.famille.gpggranit.com/famille/CA101101" class="" data-lightbox="roadtrip">
+            <div class="box-img1" style="height: 80%;"> <img loading="lazy" class="menu_image-img4" src="./assets/img/gallery/m12.jpg" alt=""></div>
+            <p class="menu_box-p text-center link">Monument Mixte</p>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio col-lg-4 col-md-6 vit" data-cat="vit" data-bound=""
+        style="display: inline-block;">
+        <div class="box-img1">
+          <a href="./assets/img/gallery/m4.jpg" class="" data-lightbox="roadtrip">
+            <div class="box-img1"> <img loading="lazy" class="menu_image-img4" src="./assets/img/gallery/m4.jpg" alt=""></div>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio col-lg-4 col-md-6 vit" data-cat="vit" data-bound=""
+        style="display: inline-block;">
+        <div class="box-img1">
+          <a href="./assets/img/gallery/m5.jpg" class="" data-lightbox="roadtrip">
+            <div class="box-img1"> <img loading="lazy" class="menu_image-img4" src="./assets/img/gallery/m5.jpg" alt=""></div>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio col-lg-4 col-md-6 vit" data-cat="vit" data-bound=""
+        style="display: inline-block;">
+        <div class="box-img1">
+          <a href="./assets/img/gallery/m6.jpg" class="" data-lightbox="roadtrip">
+            <div class="box-img1"> <img loading="lazy" class="menu_image-img4" src="./assets/img/gallery/m6.jpg" alt=""></div>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio col-lg-4 col-md-6 merch" data-cat="merch" data-bound=""
+        style="display: inline-block;">
+        <div class="box-img1">
+          <a href="./assets/img/gallery/m7.jpg" class="" data-lightbox="roadtrip">
+            <div class="box-img1"> <img loading="lazy" class="menu_image-img4" src="./assets/img/gallery/m7.jpg" alt=""></div>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio col-lg-4 col-md-6 merch" data-cat="merch" data-bound=""
+        style="display: inline-block;">
+        <div class="box-img1">
+          <a href="./assets/img/gallery/m8.jpg" class="" data-lightbox="roadtrip">
+            <div class="box-img1"> <img loading="lazy" class="menu_image-img4" src="./assets/img/gallery/m8.jpg" alt=""></div>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio col-lg-4 col-md-6 merch" data-cat="merch" data-bound=""
+        style="display: inline-block;">
+        <div class="box-img1">
+          <a href="./assets/img/gallery/m9.jpg" class="" data-lightbox="roadtrip">
+            <div class="box-img1"> <img loading="lazy" class="menu_image-img4" src="./assets/img/gallery/m9.jpg" alt=""></div>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio col-lg-4 col-md-6 gran" data-cat="gran" data-bound=""
+        style="display: inline-block;">
+        <div class="box-img1">
+          <a href="./assets/img/gallery/GranitLanhelin.jpg" class="" data-lightbox="roadtrip">
+            <div class="box-img1"> <img loading="lazy" class="menu_image-img4" src="./assets/img/gallery/GranitLanhelin.jpg" alt=""></div>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio col-lg-4 col-md-6 gran" data-cat="gran" data-bound=""
+        style="display: inline-block;">
+        <div class="box-img1">
+          <a href="./assets/img/gallery/GranitRosedalva.jpg" class="" data-lightbox="roadtrip">
+            <div class="box-img1"> <img loading="lazy" class="menu_image-img4" src="./assets/img/gallery/GranitRosedalva.jpg" alt=""></div>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio col-lg-4 col-md-6 gran" data-cat="gran" data-bound=""
+        style="display: inline-block;">
+        <div class="box-img1">
+          <a href="./assets/img/gallery/GranitNoirfin.jpg" class="" data-lightbox="roadtrip">
+            <div class="box-img1"> <img loading="lazy" class="menu_image-img4" src="./assets/img/gallery/GranitNoirfin.jpg" alt=""></div>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio col-lg-4 col-md-6 gran" data-cat="gran" data-bound=""
+        style="display: inline-block;">
+        <div class="box-img1">
+          <a href="./assets/img/gallery/GranitLabradorbleuHQ.jpg" class="" data-lightbox="roadtrip">
+            <div class="box-img1"> <img loading="lazy" class="menu_image-img4" src="./assets/img/gallery/GranitLabradorbleuHQ.jpg" alt=""></div>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio col-lg-4 col-md-6 gran" data-cat="gran" data-bound=""
+        style="display: inline-block;">
+        <div class="box-img1">
+          <a href="./assets/img/gallery/GranitHimalaya.jpg" class="" data-lightbox="roadtrip">
+            <div class="box-img1"> <img loading="lazy" class="menu_image-img4" src="./assets/img/gallery/GranitHimalaya.jpg" alt=""></div>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio col-lg-4 col-md-6 gran" data-cat="gran" data-bound=""
+        style="display: inline-block;">
+        <div class="box-img1">
+          <a href="./assets/img/gallery/GranitVertdolive.jpg" class="" data-lightbox="roadtrip">
+            <div class="box-img1"> <img loading="lazy" class="menu_image-img4" src="./assets/img/gallery/GranitVertdolive.jpg" alt=""></div>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio col-lg-4 col-md-6 gran" data-cat="gran" data-bound=""
+        style="display: inline-block;">
+        <div class="box-img1">
+          <a href="./assets/img/gallery/GranitNoirdAfrique.jpg" class="" data-lightbox="roadtrip">
+            <div class="box-img1"> <img loading="lazy" class="menu_image-img4" src="./assets/img/gallery/GranitNoirdAfrique.jpg" alt=""></div>
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-8 gran" style="display:flex; justify-content:center;">
+        <div class="col-sm-7 text-center" style="padding:6%">
+          <center>
+            <p class="menu_content-header">D'autres coloris sont disponibles:</p>
+          </center><br>
+          <center><a href="https://www.gpggranit.com/catalogue/nuancier/" class="menu_content-link--a">En voir plus</a></center>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    </div>
+    <div class="fixphone">
+      <a href="tel:01 43 08 04 42" title="01 43 08 04 42" class="button one phoneone"><i
+          class="fas fa-phone-alt"></i> &nbsp;01 43 08 04 42</a>
+    </div>
+
+    <footer class="footer py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6 text-left">
+        <a href="./index.html">
+          <img src="./assets/img/logo.png" class="footer-logo img-responsive" alt="Vigneron Couverture Logo">
+        </a>
+        <p class="menu_box-p text-black text-justify">Notre agence funéraire basée à Neuilly-Sur-Marne propose ses services funéraires pour vous accompagner, vous orienter et éventuellement prévoir l’organisation d’obsèques dans le département 93. Notre équipe de professionnels saura répondre immédiatement à toutes vos demandes et vos besoins.</p>
+      </div>
+      <div class="col-md-4 col-sm-6 text-left">
+        <h3 class="testimonial_item-title text-left after-line">Nos pages</h3>
+        <ul class="menu_content-ul2">
+          <li class="my-2"><a class="menu_content-li--link3 active"
+              href="https://www.couvreur-lagny-sur-marne.fr/">Accueil</a></li>
+          <li class="my-2"><a class="menu_content-li--link3" href="./obseques.html">Obsèques</a></li>
+          <li class="my-2"><a class="menu_content-li--link3" href="./prevoyance.html">Prévoyance</a></li>
+          <li class="my-2"><a class="menu_content-li--link3" href="./monuments.html">Monuments</a></li>
+          <li class="my-2"><a class="menu_content-li--link3" href="./contact.html">Contact</a></li>
+          <li class="my-2"><a class="menu_content-li--link3" href="./devis.html">Devis en ligne</a></li>
+          <li class="my-2"><a class="menu_content-li--link3" href="./mentions-legales.html">Mentions légales</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4 col-sm-12 text-left">
+        <h3 class="testimonial_item-title text-left after-line">Nos coordonnées</h3>
+        <div class="footer-contact-wrapper my-2">
+          <span class="menu_content-li2">88 Rue Paul et Camille Thomoux 93330 Neuilly-Sur-Marne</span>
+        </div>
+        <div class="footer-contact-wrapper my-2">
+          <i class="footer-icon fas fa-phone-alt"></i>
+          <a class="menu_content-li--link2" href="tel:01 43 08 04 42">01 43 08 04 42</a>
+        </div>
+        <div class="footer-contact-wrapper my-2">
+          <i class="footer-icon fas fa-envelope"></i>
+          <a class="menu_content-li--link2" href="mailto:agence.nsm@lebaronfuneraire.fr">agence.nsm@lebaronfuneraire.fr</a>
+        </div>
+        <div class="footer-contact-wrapper my-2">
+          <a class="menu_content-li--link2" href="https://www.facebook.com/profile.php?id=100065175725981&paipv=0&eav=AfZUN_cB_PDiyzbB0IeOBd3neJoLuu-52QwdIXHwbKOARZBUNP_BHt75Jb-ecw0KpM0" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          &emsp;
+          <a class="menu_content-li--link2" href="https://www.linkedin.com/404/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="footer-contact-wrapper my-2">
+          <i class="footer-icon fas fa-map-marker-alt" aria-hidden="true"></i>
+          <span class="menu_content-li2">
+            <strong>Marbrerie de Neuilly</strong></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid mt-2">
+    <hr class="color-black">
+    <p class="text-center menu_content-li--link2 mt-4 text-black"><a class="footer-credits link2"
+      href="https://www.bhinternet.fr/" target="_blank">BHInternet - Création site internet | 2024 | <a href="./zone.html" class="link2">Zone d'intervention</a></a></p>
+  </div>
+</footer>
+
+
+
+<script src="./assets/js/index.js"></script>
+<script src="./assets/js/formSubmit.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <a href="#" id="fixphone" title="Up"><i class="fa fa-chevron-up"></i></a>
+  </body>
+</html>
