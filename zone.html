@@ -16,7 +16,7 @@
     integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
     crossorigin="anonymous" />
   <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./assets/js/popper.min.js"></script>
   <script defer src="./assets/js/bootstrap.min.js"></script>
@@ -26,8 +26,8 @@
 
   <script> document.addEventListener("DOMContentLoaded", () => { document.querySelectorAll("img[src]").forEach(image => { const altText = generateAltText(image.getAttribute("src")); image.alt = altText; }); }); function generateAltText(src) { return src.split('/').pop().split('.')[0].replace(/[-\/_*]/g, ' '); } </script>
 
-  <title></title>
-<meta property="og:title" content="" />
+  <title>Zone d'intervention</title>
+<meta property="og:title" content="Zone d'intervention" />
 <meta property="og:locale" content="fr_FR" />
 <meta name="description" content="" />
 <meta property="og:description" content="" />
@@ -41,7 +41,7 @@
 "@type":"WebSite",
 "url":"http://localhost:4000/zone",
 "description":"",
-"name":""
+"name":"Zone d'intervention"
 }
 </script>
 
@@ -71,7 +71,7 @@
   <div class="container-fluid">
     <nav class="navbar Navbar_main navbar-expand-lg fixedNav">
       <div class="w-100">
-        <div class="row align-items-center flex-nowrap">
+        <div class="row flex-nowrap to-start-1920">
           <div class="col-sm-2">
             <div class="navbar_image">
               <a href="./index.html" title="Accueil"><img loading="lazy" src="./assets/img/logo.png"
@@ -79,8 +79,65 @@
             </div>
           </div>
           <div class="col-sm-2">
-            <p class="nav-link navbar_nav-li--p m-l-10">
-              <i class="fas fa-map-marker-alt" aria-hidden="true"></i> &nbsp; Marbrerie de Neuilly</p>
+            <p class="nav-link navbar_nav-li--icon m-l-10">
+              <i class="fas fa-map-marker-alt" aria-hidden="true"></i> 
+              Marbrerie de Neuilly</p>
+          </div>
+          <div class="col-sm-8 to-show-1600">
+            <div class="row to-column-1920">
+              <div class="col-md-6">
+                <div class="collapse navbar-collapse navbar_nav navbar_collapse" id="navbar">
+                  <ul class="navbar-nav navbar_nav-ul mx-auto w-100">
+                    <li class="nav-item navbar_nav-li">
+                      <a class="nav-link navbar_nav-li--link d-flex align-items-center m-to-3"
+                        href="./index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item navbar_nav-li">
+                      <a class="nav-link navbar_nav-li--link d-flex align-items-center m-to-3"
+                        href="./obseques.html">Obsèques</a>
+                    </li>
+                    <li class="nav-item navbar_nav-li">
+                      <a class="nav-link navbar_nav-li--link d-flex align-items-center m-to-3" href="./prevoyance.html">Prévoyance</a>
+                    </li>
+                    <li class="nav-item navbar_nav-li">
+                      <a class="nav-link navbar_nav-li--link d-flex align-items-center m-to-3" href="./monuments.html">Monuments</a>
+                    </li>
+                    <li class="nav-item navbar_nav-li">
+                      <a class="nav-link navbar_nav-li--link d-flex align-items-center m-to-3"
+                        href="./contact.html">Contact</a>
+                    </li>
+                    <div class="to-col-1920">
+                    <li class="nav-item navbar_nav-li">
+                     <a href="./configurateur-de-monuments.html" class="nav-link navbar_nav-li--btn d-flex align-items-center">Configurateur de monument</a>
+                    </li>
+                    <li class="nav-item navbar_nav-li">
+                      <a href="https://avis-de-deces.pompes-funebres-93.fr/" target="_blank" class="nav-link navbar_nav-li--btn d-flex align-items-center">Avis de décès</a>
+                    </li>
+                    <li class="nav-item navbar_nav-li">
+                      <a href="https://espace-famille.pompes-funebres-93.fr/signin" target="_blank" class="nav-link navbar_nav-li--btn d-flex align-items-center">Espace Famille</a>
+                    </li>
+                    <li class="nav-item navbar_nav-li">
+                      <a href="https://boutique.pompes-funebres-93.fr/" target="_blank" class="nav-link navbar_nav-li--btn d-flex align-items-center">Fleurs de deuil</a>
+                    </li>
+                  </div>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-5 to-col-1920-">
+                <li class="nav-item navbar_nav-li">
+                 <a href="./configurateur-de-monuments.html" class="nav-link navbar_nav-li--btn d-flex align-items-center">Configurateur de monument</a>
+                </li>
+                <li class="nav-item navbar_nav-li">
+                  <a href="https://avis-de-deces.pompes-funebres-93.fr/" target="_blank" class="nav-link navbar_nav-li--btn d-flex align-items-center">Avis de décès</a>
+                </li>
+                <li class="nav-item navbar_nav-li">
+                  <a href="https://espace-famille.pompes-funebres-93.fr/signin" target="_blank" class="nav-link navbar_nav-li--btn d-flex align-items-center">Espace Famille</a>
+                </li>
+                <li class="nav-item navbar_nav-li">
+                  <a href="https://boutique.pompes-funebres-93.fr/" target="_blank" class="nav-link navbar_nav-li--btn d-flex align-items-center">Fleurs de deuil</a>
+                </li>
+                </div>
+            </div>
           </div>
           <div class="col-sm-8">
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar"
@@ -89,27 +146,27 @@
           </button>
           </div>
         </div>
-        <div class="row">
+        <div class="row align-items-center to-hide-1600">
           <div class="col-md-2 to-hide-1400"></div>
           <div class="col-md-10">
             <div class="collapse navbar-collapse navbar_nav navbar_collapse" id="navbar">
               <ul class="navbar-nav navbar_nav-ul mx-auto w-100">
                 <li class="nav-item navbar_nav-li">
-                  <a class="nav-link navbar_nav-li--link d-flex align-items-center"
+                  <a class="nav-link navbar_nav-li--link d-flex align-items-center m-to-3"
                     href="./index.html">Accueil</a>
                 </li>
                 <li class="nav-item navbar_nav-li">
-                  <a class="nav-link navbar_nav-li--link d-flex align-items-center"
+                  <a class="nav-link navbar_nav-li--link d-flex align-items-center m-to-3"
                     href="./obseques.html">Obsèques</a>
                 </li>
                 <li class="nav-item navbar_nav-li">
-                  <a class="nav-link navbar_nav-li--link d-flex align-items-center" href="./prevoyance.html">Prévoyance</a>
+                  <a class="nav-link navbar_nav-li--link d-flex align-items-center m-to-3" href="./prevoyance.html">Prévoyance</a>
                 </li>
                 <li class="nav-item navbar_nav-li">
-                  <a class="nav-link navbar_nav-li--link d-flex align-items-center" href="./monuments.html">Monuments</a>
+                  <a class="nav-link navbar_nav-li--link d-flex align-items-center m-to-3" href="./monuments.html">Monuments</a>
                 </li>
                 <li class="nav-item navbar_nav-li">
-                  <a class="nav-link navbar_nav-li--link d-flex align-items-center"
+                  <a class="nav-link navbar_nav-li--link d-flex align-items-center m-to-3"
                     href="./contact.html">Contact</a>
                 </li>
                 <li class="nav-item navbar_nav-li">
@@ -150,7 +207,7 @@
       <div class="col-md-7">
         <div class="service_content mt-5">
           <ul class="menu_content-ul">
-            <li class="menu_content-li"><a href="./ pompes-funebres-montreuil.html"><span class="txt text-black">Pompes
+            <li class="menu_content-li"><a href="./pompes-funebres-montreuil.html"><span class="txt text-black">Pompes
                   funèbres Montreuil</span></a></li>
             <li class="menu_content-li"><a href="./pompes-funebres-neuilly-sur-marne.html"><span class="txt text-black">Pompes
                   funèbres Neuilly-sur-Marne</span></a></li>
@@ -171,7 +228,7 @@
           class="fas fa-phone-alt"></i> &nbsp;01 43 08 04 42</a>
     </div>
 
-    <footer class="footer py-5">
+    <footer class="footer pt-5 pb-3">
   <div class="container">
     <div class="row">
       <div class="col-md-4 col-sm-6 text-left">
@@ -220,9 +277,9 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid mt-2">
-    <hr class="color-black">
-    <p class="text-center menu_content-li--link2 mt-4 text-black"><a class="footer-credits link2"
+  <div class="container-fluid mt-5">
+    <hr class="color-black len-chk">
+    <p class="text-center menu_content-li--link2 mt-5 text-black to-14"><a class="footer-credits link2"
       href="https://www.bhinternet.fr/" target="_blank">BHInternet - Création site internet | 2024 | <a href="./zone.html" class="link2">Zone d'intervention</a></a></p>
   </div>
 </footer>
